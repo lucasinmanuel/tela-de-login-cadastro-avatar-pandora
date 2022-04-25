@@ -1,0 +1,91 @@
+section.cadastrar{
+    background-image: url('../images/bg-pandora-cadastrar.jpg');
+    width: 100%;
+    height: 100vh;
+    background-size: 100% 100%;
+}
+
+section.cadastrar .container{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-wrapper-cadastrar{
+    width: 45%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgba(142, 175, 239,0.7);
+    padding: 25px 20px;
+    border-radius: 20px;
+}
+
+.form-wrapper-cadastrar h1{
+    font-size: 42px;
+    line-height: 46px;
+    margin-bottom: 5px;
+}
+
+.form-wrapper-cadastrar input{
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    padding: 0 8px;
+    margin-top: 10px;
+    font-size: 18px;
+    outline: none;
+    border: 2px solid #CFBDF8;
+    border-radius: 4px;
+    color: #0B0C25;
+}
+
+.form-wrapper-cadastrar input[type=submit]{
+    background-color: #423EA8;
+    border: 2px solid #8475D8;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.form-wrapper-cadastrar input[type=submit]:hover{
+    background-color: #3e3a9e;
+}
+
+.apresentacao-wrapper-cadastrar{
+    width: calc(55% - 25px);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 30px 60px;
+    background-color: rgba(207, 189, 248,0.6);
+    margin-left: 15px;
+    border-radius: 20px;
+}
+
+.apresentacao-wrapper-cadastrar h1{
+    font-size: 32px;
+    line-height: 35px;
+    margin-bottom: 5px;
+}
+
+.spanBullets-wrapper{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 12px;
+}
+
+.spanBullets-wrapper span{
+    width: 16px;
+    height: 16px;
+    background-color: #7365be;
+    border-radius: 50%;
+    margin: 0 5px;
+    cursor: pointer;
+    transition: 0.2s;
+}
