@@ -43,7 +43,6 @@ function Login(){
             inputSenha.style.border = '2px solid red'
 
             document.querySelector('.mensagemErro').innerHTML = '<p>Conta inexistente ou o E-mail e senha estão incorretos.</p>'
-            alert('erro no email ou senha')
 
         }
 
