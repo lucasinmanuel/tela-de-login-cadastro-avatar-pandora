@@ -37,7 +37,7 @@ function App() {
   return (
     <main className="App">
 
-      <div className="loadInicial"><img src={loadGif} /></div>
+      <div className="loadInicial"><img alt="gif de carregamento" src={loadGif} /></div>
 
       <CSSTransition in={location.pathname === '/sign-up'} timeout={300} classNames="page">
 
