@@ -136,7 +136,7 @@ function Cadastrar(){
                         <input type="email" {...register("email")} />
 
                         <input type="password" {...register("senha")} /> 
-                        <p>crie uma senha forte com letras(maiúsculas e minúsculas),números e caracteres especiais. É preciso ter mínimo 6 caracteres.</p>
+                        <p>crie uma senha forte com letras(maiúsculas e minúsculas),números e caracteres especiais. É preciso ter no mínimo 6 caracteres.</p>
                       
                         <input type="password" {...register("senharepita")} />
                         <input type="submit" value="Cadastrar-se" />
@@ -151,19 +151,19 @@ function Cadastrar(){
                     <div className="curiosidades-wrapper">
 
                         <div className="curiosidades-single" style={{display:'block'}}>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ante purus, posuere vitae efficitur at, faucibus ac neque. Suspendisse potenti. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Proin id magna euismod, auctor ipsum ac, hendrerit velit. Sed mollis metus ac leo congue molestie. Duis blandit felis mauris, in varius nibh condimentum ac. Quisque id nisi nec orci pulvinar vestibulum.</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ante purus, posuere vitae efficitur at, faucibus ac neque. Suspendisse potenti. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Proin id magna euismod, auctor ipsum ac, hendrerit velit. Sed mollis metus ac leo congue molestie.</p>
                         </div>
 
                         <div className="curiosidades-single" style={{display: 'none'}}>
-                            <p>Cras in erat vehicula, euismod est eget, imperdiet justo. Quisque ac tempus lacus. In lectus nisl, tristique id nunc at, rhoncus tristique sem. Sed id diam et quam feugiat tincidunt. Praesent feugiat turpis in metus varius auctor. Integer ornare et augue consequat semper. Vivamus commodo elementum sollicitudin. Curabitur convallis augue volutpat, elementum lacus eu, sodales nunc. Curabitur malesuada mi eget nisl tincidunt, ac tempus nisi sagittis.</p>
+                            <p>Cras in erat vehicula, euismod est eget, imperdiet justo. Quisque ac tempus lacus. In lectus nisl, tristique id nunc at, rhoncus tristique sem. Sed id diam et quam feugiat tincidunt. Praesent feugiat turpis in metus varius auctor. Integer ornare et augue consequat semper. Vivamus commodo elementum sollicitudin.</p>
                         </div>
 
                         <div className="curiosidades-single" style={{display: 'none'}}>
-                            <p>Pellentesque gravida sagittis ultricies. Aenean non pellentesque ligula, at facilisis leo. Sed in tellus mollis, luctus eros sit amet, varius magna. Cras porta ante sit amet justo sagittis, quis sagittis diam gravida. Mauris et consectetur arcu. Nunc velit mauris, pulvinar sed libero euismod, aliquet pulvinar risus. Fusce tempor velit at tellus porttitor, quis vulputate nisi blandit. Maecenas fringilla mi non diam fringilla malesuada. Cras vitae dui sed augue scelerisque luctus. Donec vitae porttitor velit.</p>
+                            <p>Pellentesque gravida sagittis ultricies. Aenean non pellentesque ligula, at facilisis leo. Sed in tellus mollis, luctus eros sit amet, varius magna. Cras porta ante sit amet justo sagittis, quis sagittis diam gravida. Mauris et consectetur arcu. Nunc velit mauris, pulvinar sed libero euismod, aliquet pulvinar risus.</p>
                         </div>
 
                         <div className="curiosidades-single" style={{display: 'none'}}>
-                            <p>Vestibulum aliquet libero vitae nunc aliquet, vel tincidunt ligula dictum. Ut malesuada, metus nec mattis placerat, nisi ex viverra nunc, ac ultricies lectus ex sed arcu. Proin quam justo, eleifend porttitor pulvinar vitae, dictum vel ligula. Suspendisse potenti. Cras id faucibus nunc. Mauris auctor at turpis sit amet dapibus. Quisque vitae elementum mi.</p>
+                            <p>Vestibulum aliquet libero vitae nunc aliquet, vel tincidunt ligula dictum. Ut malesuada, metus nec mattis placerat, nisi ex viverra nunc, ac ultricies lectus ex sed arcu. Proin quam justo, eleifend porttitor pulvinar vitae, dictum vel ligula. Suspendisse potenti. Cras id faucibus nunc. Mauris auctor at turpis sit amet dapibus.</p>
                         </div>
 
                     </div>

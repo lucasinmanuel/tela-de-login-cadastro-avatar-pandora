@@ -26,6 +26,7 @@ function App() {
 
       setTimeout(()=>{
         telaAbertura.style.display = 'none'
+        document.body.style.overflowY = 'auto'
       },1000)
       
     },3000)
